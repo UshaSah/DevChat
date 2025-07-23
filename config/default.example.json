@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://<username>:<password>@<your-cluster-url>/devChat?retryWrites=true&w=majority",
+    "jwtSecret": "<your-jwt-secret>",
+    "githubClientId": "<your-github-client-id>",
+    "githubSecret": "<your-github-secret>"
+}
