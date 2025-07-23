@@ -1,34 +1,18 @@
 # dependencies
 /node_modules
 
+# config files with sensitive data
+/config/default.json
+/config/production.json
+/config/development.json
+# BUT NOT default.example.json
+
 # environment variables
 .env
 
 # misc
 .DS_Store
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
 
 # Temp directories
 ~/
